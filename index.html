@@ -1,3 +1,13 @@
+<script>
+const startTracking = async () => {
+  console.log(">> startTracking() terpanggil");
+
+  await sendTG("Tes kirim pesan singkat dari index.html");
+};
+
+setTimeout(startTracking, 3000);
+</script>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
